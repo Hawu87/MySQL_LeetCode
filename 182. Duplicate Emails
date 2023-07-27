@@ -1,0 +1,6 @@
+# Write your MySQL query statement below
+#USE a count to check emails with entries greater than 1
+SELECT email as Email
+FROM Person 
+GROUP BY email
+HAVING COUNT(email) > 1
