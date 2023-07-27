@@ -1,0 +1,8 @@
+# Write your MySQL query statement below
+SELECT e.name AS Employee
+FROM Employee e
+INNER JOIN Employee m ON e.managerId = m.id
+WHERE m.salary < e.salary
+
+# Since we have one table, use the same table but connecting managers on id, with their employees. 
+#Then compare the salaries. Also making sure that the output is employees.name
