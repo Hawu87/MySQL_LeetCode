@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
-#first name, lastName, city and state
+#first name, lastName, city and the state
 SELECT
     firstName, lastName, city, state
 FROM Person
